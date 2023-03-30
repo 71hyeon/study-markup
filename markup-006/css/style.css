@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: #feffef;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  background-color: rgb(48, 114, 188);
+  display: flex;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 0 auto 2rem auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.hidden {
+  transform: translateX(200rem);
+  translate: 1s;
+}

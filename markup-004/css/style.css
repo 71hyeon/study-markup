@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: rgb(107, 43, 226);
+}
+
+.searchBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox__input {
+  width: 13rem;
+  height: 3rem;
+}
+
+.searchBox__btn {
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+}
